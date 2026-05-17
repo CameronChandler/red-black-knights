@@ -1,0 +1,16 @@
+# Build artifacts
+/build/
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# Executables
+*.exe
+
+# Temp files
+*.tmp
+*.log
+
+# Keep rendered outputs, ignore state json outputs
+outputs/**/states/*.json
